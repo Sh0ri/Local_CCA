@@ -1,1 +1,1 @@
-Ajout de l'objet lampe, quand on s'approche ça fait un "?" à côté de Nate.
+added interact script for more clarity
