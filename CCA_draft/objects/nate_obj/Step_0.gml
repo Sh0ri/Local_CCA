@@ -23,7 +23,7 @@ if(keyboard_check(ord("Q")))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 392A1EE1
-/// @DnDArgument : "code" "// React$(13_10)move_h = key_left + key_right;$(13_10)move_v = key_up + key_down;$(13_10)$(13_10)$(13_10)hsp = move_h * movespeed;$(13_10)vsp = move_v * movespeed;$(13_10)$(13_10)// Horizontal Collision$(13_10)if(place_meeting(x+hsp,y,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)    {$(13_10)        x += sign(hsp);$(13_10)    }	$(13_10)    hsp = 0;$(13_10)}$(13_10)if(place_meeting(x+hsp,y,item_interact_obj))$(13_10){$(13_10)	while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)	    {$(13_10)	        x += sign(hsp);$(13_10)	    }$(13_10)	hsp = 0;$(13_10)}	$(13_10)	$(13_10)x += hsp;$(13_10)$(13_10)// Vertical Collision$(13_10)if(place_meeting(x,y + vsp,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)    {$(13_10)        y += sign(vsp);$(13_10)    }$(13_10)    vsp = 0;$(13_10)}$(13_10)if(place_meeting(x,y + vsp,item_interact_obj))$(13_10){$(13_10)	while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)    {$(13_10)        y += sign(vsp);$(13_10)    }$(13_10)    vsp = 0;$(13_10)}$(13_10)$(13_10)y += vsp;$(13_10)$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "// React$(13_10)move_h = key_left + key_right;$(13_10)move_v = key_up + key_down;$(13_10)$(13_10)$(13_10)hsp = move_h * movespeed;$(13_10)vsp = move_v * movespeed;$(13_10)$(13_10)// Horizontal Collision$(13_10)if(place_meeting(x+hsp,y,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)    {$(13_10)        x += sign(hsp);$(13_10)    }	$(13_10)    hsp = 0;$(13_10)}$(13_10)if(place_meeting(x+hsp,y,item_interact_obj))$(13_10){$(13_10)	while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)	    {$(13_10)	        x += sign(hsp);$(13_10)	    }$(13_10)	hsp = 0;$(13_10)}	$(13_10)	$(13_10)x += hsp;$(13_10)$(13_10)// Vertical Collision$(13_10)if(place_meeting(x,y + vsp,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)    {$(13_10)        y += sign(vsp);$(13_10)    }$(13_10)$(13_10)    vsp = 0;$(13_10)}$(13_10)if(place_meeting(x,y + vsp,item_interact_obj))$(13_10){$(13_10)	while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)    {$(13_10)        y += sign(vsp);$(13_10)    }$(13_10)    vsp = 0;$(13_10)}$(13_10)$(13_10)y += vsp;$(13_10)$(13_10)$(13_10)$(13_10)"
 // React
 move_h = key_left + key_right;
 move_v = key_up + key_down;
@@ -59,6 +59,7 @@ if(place_meeting(x,y + vsp,wall_obj))
     {
         y += sign(vsp);
     }
+
     vsp = 0;
 }
 if(place_meeting(x,y + vsp,item_interact_obj))

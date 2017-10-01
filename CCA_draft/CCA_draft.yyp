@@ -245,6 +245,14 @@
                 "resourcePath": "views\\e6fbeec5-b7ae-4dc9-876c-e615ec58e2b0.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "efb07106-95f1-4bd6-8c14-9091f5730b59",
+            "Value": {
+                "id": "7f021940-35dd-494f-8f30-af3d1a67606b",
+                "resourcePath": "objects\\camera_obj\\camera_obj.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
