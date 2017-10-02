@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "5e87ac14-bb63-491c-94a5-aea975749ee3",
+            "Value": {
+                "id": "78120510-344a-436d-9d1e-d30b02a73d91",
+                "resourcePath": "sprites\\oren_spr\\oren_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f794e65-59e6-414d-aba2-563775588159",
             "Value": {
                 "id": "4ea79ec5-1875-46b6-9499-5a5388c58527",
@@ -188,6 +196,14 @@
                 "id": "fbed6311-73ad-46c7-b88f-f2ce6f77c0c8",
                 "resourcePath": "objects\\lampe_obj1\\lampe_obj1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "965ca780-6493-49fc-be8f-47adba292d8c",
+            "Value": {
+                "id": "6cb388aa-00e1-43fd-b1ea-b691d2b164b4",
+                "resourcePath": "sprites\\mia_spr\\mia_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

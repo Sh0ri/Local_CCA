@@ -1,1 +1,1 @@
-added interact script for more clarity
+added is_interactive in perso_obj class
