@@ -191,19 +191,19 @@
             }
         },
         {
+            "Key": "7dd3c285-8193-4347-986e-74f422b5d918",
+            "Value": {
+                "id": "6d4b8171-ffc1-4fca-9fa9-4134dd552e0a",
+                "resourcePath": "views\\7dd3c285-8193-4347-986e-74f422b5d918.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "806a0f19-2ac6-4c5b-8704-4c5b4d038093",
             "Value": {
                 "id": "629e327b-7d84-4b4c-b8db-d69f1ecad99b",
                 "resourcePath": "views\\806a0f19-2ac6-4c5b-8704-4c5b4d038093.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "830d1fa9-a785-4e8d-a930-2a5eaeb16314",
-            "Value": {
-                "id": "fbed6311-73ad-46c7-b88f-f2ce6f77c0c8",
-                "resourcePath": "objects\\lampe_obj1\\lampe_obj1.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -8,5 +8,9 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 51DA1D19
-/// @DnDArgument : "code" "id_perso = 1;"
+/// @DnDArgument : "code" "id_perso = 1;$(13_10)$(13_10)//list of actions for nate$(13_10)actions_list[0] = "Watch";$(13_10)actions_list[1] = "Pee on";"
 id_perso = 1;
+
+//list of actions for nate
+actions_list[0] = "Watch";
+actions_list[1] = "Pee on";
