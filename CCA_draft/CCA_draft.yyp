@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "15a16784-b4c4-41cd-a7ca-26496af546fa",
+            "Value": {
+                "id": "2cb9ddc4-020e-4560-bd17-9ff8b42ed2e7",
+                "resourcePath": "sprites\\phase_spr\\phase_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1654b623-4491-44da-aaf0-dfff95aad3c5",
             "Value": {
                 "id": "69d13345-a6c7-419a-b396-c870bee292e2",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "49013f89-0f07-4bb4-9378-24306ff38efb",
+            "Value": {
+                "id": "6b0be4b0-44b1-4984-827c-4c5f8614cf23",
+                "resourcePath": "sounds\\heart_beat_sound\\heart_beat_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4f3a0f58-8c54-4b78-9513-279f1f860130",
             "Value": {
                 "id": "76b9ffe9-9ae4-489d-a258-c9e0013ea59f",
@@ -191,19 +207,19 @@
             }
         },
         {
-            "Key": "7dd3c285-8193-4347-986e-74f422b5d918",
-            "Value": {
-                "id": "6d4b8171-ffc1-4fca-9fa9-4134dd552e0a",
-                "resourcePath": "views\\7dd3c285-8193-4347-986e-74f422b5d918.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "806a0f19-2ac6-4c5b-8704-4c5b4d038093",
             "Value": {
                 "id": "629e327b-7d84-4b4c-b8db-d69f1ecad99b",
                 "resourcePath": "views\\806a0f19-2ac6-4c5b-8704-4c5b4d038093.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "830d1fa9-a785-4e8d-a930-2a5eaeb16314",
+            "Value": {
+                "id": "fbed6311-73ad-46c7-b88f-f2ce6f77c0c8",
+                "resourcePath": "objects\\lampe_obj1\\lampe_obj1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "e25762ed-cdd1-4497-b622-153a70860084",
+            "Value": {
+                "id": "142c385c-36c5-438a-a939-53f8dae76bd7",
+                "resourcePath": "scripts\\phase_beat_script\\phase_beat_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6fbeec5-b7ae-4dc9-876c-e615ec58e2b0",
             "Value": {
                 "id": "a4ce9f76-10ea-4e10-b402-c97fc5105a02",
@@ -313,7 +337,8 @@
     ],
     "script_order": [
         "6c330a74-5f7f-4c64-b481-054b068b4cb3",
-        "fd8f2b7a-740f-4c89-bf31-51562308de75"
+        "fd8f2b7a-740f-4c89-bf31-51562308de75",
+        "e25762ed-cdd1-4497-b622-153a70860084"
     ],
     "tutorial": ""
 }

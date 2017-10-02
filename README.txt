@@ -1,1 +1,1 @@
-Tous les persos jouables avec les touches 1,2,3 et caméra qui se centre sur le bon perso quand on le choisit
+Ajout de la phase et des différentes intéractions pour chaque perso
