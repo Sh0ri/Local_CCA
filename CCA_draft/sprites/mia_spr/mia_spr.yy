@@ -7,10 +7,10 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 115,
-    "bbox_left": 4,
+    "bbox_left": 6,
     "bbox_right": 44,
-    "bbox_top": 9,
-    "bboxmode": 0,
+    "bbox_top": 71,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [

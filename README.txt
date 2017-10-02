@@ -1,1 +1,1 @@
-added is_interactive in perso_obj class
+Tous les persos jouables avec les touches 1,2,3 et caméra qui se centre sur le bon perso quand on le choisit
