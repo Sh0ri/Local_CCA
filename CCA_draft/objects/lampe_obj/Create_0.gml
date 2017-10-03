@@ -8,5 +8,6 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23138841
-/// @DnDArgument : "code" "string_name = "lamp";"
+/// @DnDArgument : "code" "string_name = "lamp";$(13_10)available_actions = ["Inspect","Watch","Pee on","Destroy"];"
 string_name = "lamp";
+available_actions = ["Inspect","Watch","Pee on","Destroy"];
