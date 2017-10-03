@@ -16,9 +16,18 @@ if(must_show_action == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2330B10B
 	/// @DnDParent : 650B6FDB
-	/// @DnDArgument : "code" "if(compteur_actions != 0)$(13_10){$(13_10)	action_script(lampe_obj,compteur_actions);$(13_10)}$(13_10)$(13_10)"
+	/// @DnDArgument : "code" "if(compteur_actions != 0)$(13_10){$(13_10)	action_script(lampe_obj,compteur_actions,current_action);$(13_10)}$(13_10)$(13_10)"
 	if(compteur_actions != 0)
 	{
-		action_script(lampe_obj,compteur_actions);
+		action_script(lampe_obj,compteur_actions,current_action);
 	}
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 4200BAA3
+/// @DnDArgument : "code" "if(must_show_action == true && current_action != "")$(13_10){$(13_10)	action_script(lampe_obj,compteur_actions,current_action);$(13_10)}$(13_10)"
+if(must_show_action == true && current_action != "")
+{
+	action_script(lampe_obj,compteur_actions,current_action);
 }
