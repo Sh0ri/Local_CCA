@@ -11,14 +11,6 @@ system = part_system_create_layer("Instances", 0);
 particle = part_type_create();
 part_type_blend(particle, true);
 
-/// @DnDAction : YoYo Games.Particles.Part_Type_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 367FA3A1
-/// @DnDArgument : "type" "particle"
-/// @DnDArgument : "sprite" "phase_spr"
-/// @DnDSaveInfo : "sprite" "15a16784-b4c4-41cd-a7ca-26496af546fa"
-part_type_sprite(particle, phase_spr, true, false, false);
-
 /// @DnDAction : YoYo Games.Particles.Part_Type_Shape
 /// @DnDVersion : 1.1
 /// @DnDHash : 40B615A7
@@ -30,11 +22,11 @@ part_type_shape(particle, pt_shape_ring);
 /// @DnDVersion : 1
 /// @DnDHash : 5E79D0C3
 /// @DnDArgument : "type" "particle"
-/// @DnDArgument : "minsize" "10"
+/// @DnDArgument : "minsize" "14"
 /// @DnDArgument : "maxsize" "20"
 /// @DnDArgument : "sizeincr" "4"
 /// @DnDArgument : "wiggle" "8"
-part_type_size(particle, 10, 20, 4, 8);
+part_type_size(particle, 14, 20, 4, 8);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Color
 /// @DnDVersion : 1
@@ -49,10 +41,10 @@ part_type_colour3(particle, $FF0000FF & $FFFFFF, $FF4C4CFF & $FFFFFF, $FF0B0B3A 
 /// @DnDVersion : 1
 /// @DnDHash : 2AF7CFC0
 /// @DnDArgument : "type" "particle"
-/// @DnDArgument : "start" "0.7"
-/// @DnDArgument : "middle" "0.4"
-/// @DnDArgument : "end" "0.2"
-part_type_alpha3(particle, 0.7, 0.4, 0.2);
+/// @DnDArgument : "start" "0.4"
+/// @DnDArgument : "middle" "0.3"
+/// @DnDArgument : "end" "0.05"
+part_type_alpha3(particle, 0.4, 0.3, 0.05);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Create
 /// @DnDVersion : 1
