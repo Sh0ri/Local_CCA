@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 239EB0DA
-/// @DnDArgument : "code" "_left = argument0;"
-_left = argument0;
+/// @DnDArgument : "code" "_width = argument0;$(13_10)_height = argument1;"
+_width = argument0;
+_height = argument1;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1
@@ -28,10 +29,10 @@ part_type_shape(particle, pt_shape_sphere);
 /// @DnDVersion : 1
 /// @DnDHash : 4C9AF6F2
 /// @DnDArgument : "type" "particle"
-/// @DnDArgument : "minsize" "0.02"
+/// @DnDArgument : "minsize" "0.03"
 /// @DnDArgument : "maxsize" "0.05"
 /// @DnDArgument : "wiggle" "1"
-part_type_size(particle, 0.02, 0.05, 0, 1);
+part_type_size(particle, 0.03, 0.05, 0, 1);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Color
 /// @DnDVersion : 1
@@ -46,10 +47,10 @@ part_type_colour3(particle, $FFFFFFFF & $FFFFFF, $FFFFFCC4 & $FFFFFF, $FFFFAD7A 
 /// @DnDVersion : 1
 /// @DnDHash : 59E7F855
 /// @DnDArgument : "type" "particle"
-/// @DnDArgument : "start" "0.6"
+/// @DnDArgument : "start" "0.7"
 /// @DnDArgument : "middle" "0.4"
 /// @DnDArgument : "end" "0.1"
-part_type_alpha3(particle, 0.6, 0.4, 0.1);
+part_type_alpha3(particle, 0.7, 0.4, 0.1);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Create
 /// @DnDVersion : 1
@@ -59,14 +60,16 @@ emitter = part_emitter_create(system);
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Region
 /// @DnDVersion : 1
 /// @DnDHash : 7011038E
-/// @DnDArgument : "left" "_left"
+/// @DnDArgument : "left" "_width"
 /// @DnDArgument : "left_relative" "1"
+/// @DnDArgument : "top" "_height"
 /// @DnDArgument : "top_relative" "1"
-/// @DnDArgument : "right" "_left"
+/// @DnDArgument : "right" "_width"
 /// @DnDArgument : "right_relative" "1"
-/// @DnDArgument : "bottom" "0"
+/// @DnDArgument : "bottom" "_height"
 /// @DnDArgument : "bottom_relative" "1"
-part_emitter_region(system, emitter, x + _left, x + _left, y + 0, y + 0, ps_shape_rectangle, ps_distr_linear);
+/// @DnDArgument : "distribution" "1"
+part_emitter_region(system, emitter, x + _width, x + _width, y + _height, y + _height, ps_shape_rectangle, ps_distr_gaussian);
 
 /// @DnDAction : YoYo Games.Particles.Part_Emit_Emit
 /// @DnDVersion : 1

@@ -1,8 +1,8 @@
 {
-    "id": "55d4d112-7d16-4efd-ab3e-1a8ea0ed3271",
+    "id": "d481cf8d-0e6f-4bd1-b1eb-16a2830e6ad7",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "get_vk_numpad_script",
     "IsCompatibility": false,
-    "IsDnD": false
+    "IsDnD": true
 }

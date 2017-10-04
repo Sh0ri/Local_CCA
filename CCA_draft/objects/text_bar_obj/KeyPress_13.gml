@@ -11,21 +11,30 @@ if(nate_obj.phase_activated == true)
 	/// @DnDApplyTo : 71bc77b5-b075-44d1-a649-a7b1445b7e96
 	/// @DnDParent : 1893D969
 	
-	nate_obj.phase_activated = false;
-	
 	items_found = find_phase_items_script(text);
 	//show_debug_message(items_found);
 	
 	
 	// For all items found we illuminate them
-	for(i = 0; i < array_length_1d(items_found); i++)
+	if(array_length_1d(items_found) > 0)
 	{
-		with(items_found[i])
-			highlight = true;
-	}
+		nate_obj.phase_activated = false;
+		for(i = 0; i < array_length_1d(items_found); i++)
+		{
+			with(items_found[i])
+				highlight = true;
+		}
 	
-	// We then destroy the text bar object
-	with(text_bar_obj)
-	 instance_destroy();
+		// We then destroy the text bar object
+		with(text_bar_obj)
+		 instance_destroy();
+	 }
 	 
+	 // If nothing is found we keep the text bar and reset the input
+	 else
+	 {
+		delete_timer = 2;
+		text = "";
+		keyboard_string = "";
+	 }
 }

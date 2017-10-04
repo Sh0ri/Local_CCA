@@ -1,5 +1,5 @@
 
-_inputName = argument0;
+_inputName = string_lower(argument0);
 
 _finalResult = "";
 
