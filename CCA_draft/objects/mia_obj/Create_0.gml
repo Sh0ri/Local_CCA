@@ -8,10 +8,10 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4005B4A9
-/// @DnDArgument : "code" "id_perso = 3;$(13_10)$(13_10)//list of actions for mia$(13_10)actions_list[0] = "Inspect";$(13_10)actions_list[1] = "Photo";$(13_10)actions_list[2] = "Draw";"
+/// @DnDArgument : "code" "id_perso = 3;$(13_10)$(13_10)//list of actions for mia$(13_10)actions_list[0] = "Inspect";$(13_10)actions_list[1] = "Watch";$(13_10)actions_list[2] = "Draw";"
 id_perso = 3;
 
 //list of actions for mia
 actions_list[0] = "Inspect";
-actions_list[1] = "Photo";
+actions_list[1] = "Watch";
 actions_list[2] = "Draw";

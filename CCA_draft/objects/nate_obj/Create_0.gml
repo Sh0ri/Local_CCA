@@ -8,13 +8,13 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 51DA1D19
-/// @DnDArgument : "code" "id_perso = 1;$(13_10)$(13_10)//list of actions for nate$(13_10)actions_list[0] = "Inspect";$(13_10)actions_list[1] = "Watch";$(13_10)actions_list[2] = "Pee on";$(13_10)$(13_10)phase_activated = false;$(13_10)phase_beat_duration = 35;$(13_10)phase_beat = phase_beat_duration;$(13_10)pitch_heart = 1;$(13_10)phase_item_name = "";"
+/// @DnDArgument : "code" "id_perso = 1;$(13_10)$(13_10)//list of actions for nate$(13_10)actions_list[0] = "Inspect";$(13_10)actions_list[1] = "Photo";$(13_10)actions_list[2] = "Scan";$(13_10)$(13_10)phase_activated = false;$(13_10)phase_beat_duration = 35;$(13_10)phase_beat = phase_beat_duration;$(13_10)pitch_heart = 1;$(13_10)phase_item_name = "";"
 id_perso = 1;
 
 //list of actions for nate
 actions_list[0] = "Inspect";
-actions_list[1] = "Watch";
-actions_list[2] = "Pee on";
+actions_list[1] = "Photo";
+actions_list[2] = "Scan";
 
 phase_activated = false;
 phase_beat_duration = 35;

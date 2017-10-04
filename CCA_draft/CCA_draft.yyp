@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "55d4d112-7d16-4efd-ab3e-1a8ea0ed3271",
+            "Value": {
+                "id": "6a937b5e-2b60-43be-9950-6cb3ef94a580",
+                "resourcePath": "scripts\\get_vk_numpad_script\\get_vk_numpad_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a060dda-a5d1-4fad-9c01-e909a47f26ef",
             "Value": {
                 "id": "63c77189-1411-480a-826e-25e30ac16a77",
@@ -391,7 +399,8 @@
         "e3cf90e0-7353-440a-89be-fa59e7bdad21",
         "53fb9cab-5f5d-43ce-85f1-98b4993fba4b",
         "0a837c9e-ee36-49f4-81cc-df57ca197d5d",
-        "85700adf-0a51-4f18-8809-6bc0fb6e61db"
+        "85700adf-0a51-4f18-8809-6bc0fb6e61db",
+        "55d4d112-7d16-4efd-ab3e-1a8ea0ed3271"
     ],
     "tutorial": ""
 }
