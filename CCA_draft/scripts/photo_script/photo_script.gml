@@ -17,7 +17,7 @@ for(i=0;i<nate_obj.list_photos_size;i++)
 			argument0.current_action = "";	
 		}
 	}
-	if(nate_obj.list_photos[i] == noone)
+	if(photo_taken == false && nate_obj.list_photos[i] == noone)
 	{
 		nate_obj.list_photos[i] = argument0.object_photo;
 		photo_taken = true;

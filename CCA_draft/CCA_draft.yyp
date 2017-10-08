@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "db5c3f34-3cf5-4de0-b2e2-74e16ab2dfcc",
+            "Value": {
+                "id": "442af58f-cec3-47ab-a716-263bc93a7caf",
+                "resourcePath": "sprites\\delete_photo_spr\\delete_photo_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de11527b-d063-449c-bc8b-2ed4654e78cc",
             "Value": {
                 "id": "56683d65-8ffd-47f6-abce-e2925ffe6244",
