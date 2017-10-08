@@ -30,6 +30,15 @@ if(nate_obj.phase_activated == true)
 		 instance_destroy();
 	 }
 	 
+	// Delete the text bar if the input is empty 
+	 if(text = "")
+	 {
+		nate_obj.phase_activated = false;
+		keyboard_string = "";
+		with(text_bar_obj)
+		 instance_destroy();
+	 }
+	 
 	 // If nothing is found we keep the text bar and reset the input
 	 else
 	 {

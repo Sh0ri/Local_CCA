@@ -1,1 +1,1 @@
-Ajout de la phase et des différentes intéractions pour chaque perso
+Ajout de l'objet Kurioscope et de la liste des photos dans Nate

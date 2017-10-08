@@ -8,25 +8,19 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 51DA1D19
-/// @DnDArgument : "code" "id_perso = 1;$(13_10)$(13_10)//Kurioscope's variables$(13_10)var battery_capacity = 100;$(13_10)var battery = battery_capacity;$(13_10)var scans_slots_size = 5;$(13_10)scans_slots[0] = noone;$(13_10)scans_slots[1] = noone;$(13_10)scans_slots[2] = noone;$(13_10)scans_slots[3] = noone;$(13_10)scans_slots[4] = noone;$(13_10)//list of actions for nate$(13_10)actions_list[0] = "Inspect";$(13_10)actions_list[1] = "Watch";$(13_10)actions_list[2] = "Scan";$(13_10)$(13_10)phase_activated = false;$(13_10)phase_beat_duration = 35;$(13_10)phase_beat = phase_beat_duration;$(13_10)pitch_heart = 1;$(13_10)phase_item_name = "";"
+/// @DnDArgument : "code" "id_perso = 1;$(13_10)$(13_10)//list of actions for nate$(13_10)action_list[0] = "Inspect";$(13_10)actions_list[1] = "Watch";$(13_10)actions_list[2] = "Pee on";$(13_10)$(13_10)phase_activated = false;$(13_10)phase_beat_duration = 35;$(13_10)phase_beat = phase_beat_duration;$(13_10)pitch_heart = 1;$(13_10)phase_item_name = "";$(13_10)$(13_10)list_photos[0] = lampe_photo_obj;$(13_10)list_photos[1] = ball_photo_obj;"
 id_perso = 1;
 
-//Kurioscope's variables
-var battery_capacity = 100;
-var battery = battery_capacity;
-var scans_slots_size = 5;
-scans_slots[0] = noone;
-scans_slots[1] = noone;
-scans_slots[2] = noone;
-scans_slots[3] = noone;
-scans_slots[4] = noone;
 //list of actions for nate
-actions_list[0] = "Inspect";
+action_list[0] = "Inspect";
 actions_list[1] = "Watch";
-actions_list[2] = "Scan";
+actions_list[2] = "Pee on";
 
 phase_activated = false;
 phase_beat_duration = 35;
 phase_beat = phase_beat_duration;
 pitch_heart = 1;
 phase_item_name = "";
+
+list_photos[0] = lampe_photo_obj;
+list_photos[1] = ball_photo_obj;
