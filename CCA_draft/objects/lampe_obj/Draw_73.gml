@@ -8,9 +8,9 @@ if(must_show_action == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 47355696
 	/// @DnDParent : 6E0F5C1A
-	/// @DnDArgument : "expr" "interact_script("Inspect","Watch","Pee on","Destroy")"
+	/// @DnDArgument : "expr" "interact_script("Inspect","Watch","Photo","Destroy")"
 	/// @DnDArgument : "var" "compteur_actions"
-	compteur_actions = interact_script("Inspect","Watch","Pee on","Destroy");
+	compteur_actions = interact_script("Inspect","Watch","Photo","Destroy");
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

@@ -1,8 +1,8 @@
 {
-    "id": "c2c771de-1be4-401c-8184-8b28391be8f2",
+    "id": "a01d07d6-fe5a-4433-94dd-175470ba8256",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "inspect_script",
+    "name": "photo_script",
     "IsCompatibility": false,
     "IsDnD": false
 }
