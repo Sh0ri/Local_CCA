@@ -1,1 +1,1 @@
-Ajout de la mécanique de dialogue en mode cutscene et en mode dialogue de fond
+Ajout de la lecture de fichiers texte pour les dialogues

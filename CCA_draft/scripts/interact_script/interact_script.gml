@@ -28,7 +28,7 @@ if(global.id_perso == nate_obj.id_perso)
 			draw_set_color(c_white);
 			for(l=0;l<compteur;l++)
 			{
-				draw_text_transformed(nate_obj.x + 50, nate_obj.y -15 + 20*l, actions_to_draw_list[l],1,1,image_angle);
+				draw_text_transformed(nate_obj.x + 50, nate_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
 			}
 		}
 	}
@@ -66,7 +66,7 @@ if(global.id_perso == oren_obj.id_perso)
 			draw_set_color(c_red);
 			for(l=0;l<compteur;l++)
 			{
-				draw_text_transformed(oren_obj.x + 50, oren_obj.y -15 + 20*l, actions_to_draw_list[l],1,1,image_angle);
+				draw_text_transformed(oren_obj.x + 50, oren_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
 			}
 		}
 	}
@@ -104,7 +104,7 @@ if(global.id_perso == mia_obj.id_perso)
 			draw_set_color(c_fuchsia);
 			for(l=0;l<compteur;l++)
 			{
-				draw_text_transformed(mia_obj.x + 50, mia_obj.y -15 + 20*l, actions_to_draw_list[l],1,1,image_angle);
+				draw_text_transformed(mia_obj.x + 50, mia_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
 			}
 		}
 	}
