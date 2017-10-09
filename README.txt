@@ -1,1 +1,1 @@
-Ajout de l'objet Kurioscope et de la liste des photos dans Nate
+Ajout de la mécanique de dialogue en mode cutscene et en mode dialogue de fond

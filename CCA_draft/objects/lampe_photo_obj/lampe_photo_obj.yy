@@ -5,16 +5,6 @@
     "name": "lampe_photo_obj",
     "eventList": [
         {
-            "id": "acc2a2ea-42fd-4fd1-82ee-c2a1576900db",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "22375737-b20c-43e1-a570-19995a3388a5"
-        },
-        {
             "id": "e2e9753d-399b-43d1-aed5-de56ef5c085c",
             "modelName": "GMEvent",
             "mvc": "1.0",

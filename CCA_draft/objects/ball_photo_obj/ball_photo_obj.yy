@@ -5,16 +5,6 @@
     "name": "ball_photo_obj",
     "eventList": [
         {
-            "id": "c9fbaed8-5755-4ba1-9c92-eb75a7f64c2f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "850a30a6-b457-4678-a971-de3080193c6c"
-        },
-        {
             "id": "de258b00-1bb8-4e44-93e5-2896bf976b2e",
             "modelName": "GMEvent",
             "mvc": "1.0",
