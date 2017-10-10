@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "action_script",
     "IsCompatibility": false,
-    "IsDnD": false
+    "IsDnD": true
 }

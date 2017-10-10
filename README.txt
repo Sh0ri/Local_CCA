@@ -1,1 +1,1 @@
-Modification du script Item Interact
+Changement des touches d'actions
