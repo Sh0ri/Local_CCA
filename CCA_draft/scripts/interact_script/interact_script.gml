@@ -1,10 +1,11 @@
 var compteur = 0;
+actions_to_draw_list = ["","","",""];
 
 if( distance_to_object( get_current_perso_script() ) < 30 && (get_current_perso_script().is_interacting == 0 || get_current_perso_script().is_interacting == object_index))
 {
 	(get_current_perso_script()).is_interacting = object_index;
 	
-	var actions_to_draw_list;
+	//var actions_to_draw_list;
 	
 	for(i=0;i<array_length_1d(argument0);i++)
 	{
@@ -18,6 +19,7 @@ if( distance_to_object( get_current_perso_script() ) < 30 && (get_current_perso_
 			}
 		}
 		
+		#region draw_available_actions
 		if(compteur>0 && compteur<5)
 		{
 			//new animation 4 max actions available
@@ -70,17 +72,14 @@ if( distance_to_object( get_current_perso_script() ) < 30 && (get_current_perso_
 				//RIGHT
 				draw_text_transformed((get_current_perso_script()).x + 85, (get_current_perso_script()).y -70, actions_to_draw_list[3],1,1,image_angle);
 			}
-			//OLD
-			//for(k=0;k<compteur;k++)
-			//{
-			//	draw_text_transformed((get_current_perso_script()).x + 50, (get_current_perso_script()).y -120 + 20*k, actions_to_draw_list[k],1,1,image_angle);
-			//}
+			#endregion
 		}
 	}
 }
 else if( distance_to_object( get_current_perso_script() ) > 30 && (get_current_perso_script()).is_interacting == object_index)
 {
 	(get_current_perso_script()).is_interacting = 0;
+	actions_to_draw_list = ["","","",""];
 }
 
 return compteur;

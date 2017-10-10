@@ -8,7 +8,8 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23138841
-/// @DnDArgument : "code" "string_name = "door";$(13_10)object_photo = noone;$(13_10)available_actions =["Open","Break","Inspect","Hit"];"
+/// @DnDArgument : "code" "string_name = "door";$(13_10)object_photo = noone;$(13_10)available_actions =["Open","Break","Inspect","Hit"];$(13_10)inspect_text = "A simple door";"
 string_name = "door";
 object_photo = noone;
 available_actions =["Open","Break","Inspect","Hit"];
+inspect_text = "A simple door";

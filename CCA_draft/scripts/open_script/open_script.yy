@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "open_script",
     "IsCompatibility": false,
-    "IsDnD": true
+    "IsDnD": false
 }
