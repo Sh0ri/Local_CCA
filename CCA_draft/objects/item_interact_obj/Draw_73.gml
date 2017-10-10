@@ -4,13 +4,13 @@ if(must_show_action == false)
 
 	if(compteur_actions != 0)
 	{
-		action_script(lampe_obj,compteur_actions,current_action);
+		action_script(self,compteur_actions,current_action);
 	}
 }
 
 if(must_show_action == true && current_action != "")
 {
-	action_script(lampe_obj,compteur_actions,current_action);
+	action_script(self,compteur_actions,current_action);
 }
 
 

@@ -18,13 +18,63 @@ if( distance_to_object( get_current_perso_script() ) < 30 && (get_current_perso_
 			}
 		}
 		
-		if(compteur>0)
+		if(compteur>0 && compteur<5)
 		{
-			draw_set_color(c_white);
-			for(k=0;k<compteur;k++)
-			{
-				draw_text_transformed((get_current_perso_script()).x + 50, (get_current_perso_script()).y -120 + 20*k, actions_to_draw_list[k],1,1,image_angle);
+			//new animation 4 max actions available
+			draw_set_color(c_red);
+			if(compteur == 1)
+			{	
+				//UP
+				text_upper_decal = string_length(actions_to_draw_list[0]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y -150, actions_to_draw_list[0],1,1,image_angle);
 			}
+			if(compteur == 2)
+			{
+				//UP
+				text_upper_decal = string_length(actions_to_draw_list[0]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y -150, actions_to_draw_list[0],1,1,image_angle);
+				
+				//LEFT
+				text_upper_decal = string_length(actions_to_draw_list[1]);
+				draw_text_transformed((get_current_perso_script()).x -70 - text_upper_decal, (get_current_perso_script()).y -70, actions_to_draw_list[1],1,1,image_angle);
+			}
+			if(compteur == 3)
+			{
+				//UP
+				text_upper_decal = string_length(actions_to_draw_list[0]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y -150, actions_to_draw_list[0],1,1,image_angle);
+				
+				//LEFT
+				text_upper_decal = string_length(actions_to_draw_list[1]);
+				draw_text_transformed((get_current_perso_script()).x -70 - text_upper_decal, (get_current_perso_script()).y -70, actions_to_draw_list[1],1,1,image_angle);
+				
+				//DOWN
+				text_upper_decal = string_length(actions_to_draw_list[2]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y +20, actions_to_draw_list[2],1,1,image_angle);
+				
+			}
+			if(compteur == 4)
+			{
+				//UP
+				text_upper_decal = string_length(actions_to_draw_list[0]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y -150, actions_to_draw_list[0],1,1,image_angle);
+				
+				//LEFT
+				text_upper_decal = string_length(actions_to_draw_list[1]);
+				draw_text_transformed((get_current_perso_script()).x -70 - text_upper_decal, (get_current_perso_script()).y -70, actions_to_draw_list[1],1,1,image_angle);
+				
+				//DOWN
+				text_upper_decal = string_length(actions_to_draw_list[2]) *3;
+				draw_text_transformed((get_current_perso_script()).x + 20 - text_upper_decal, (get_current_perso_script()).y +20, actions_to_draw_list[2],1,1,image_angle);
+				
+				//RIGHT
+				draw_text_transformed((get_current_perso_script()).x + 85, (get_current_perso_script()).y -70, actions_to_draw_list[3],1,1,image_angle);
+			}
+			//OLD
+			//for(k=0;k<compteur;k++)
+			//{
+			//	draw_text_transformed((get_current_perso_script()).x + 50, (get_current_perso_script()).y -120 + 20*k, actions_to_draw_list[k],1,1,image_angle);
+			//}
 		}
 	}
 }
@@ -32,119 +82,5 @@ else if( distance_to_object( get_current_perso_script() ) > 30 && (get_current_p
 {
 	(get_current_perso_script()).is_interacting = 0;
 }
-
-//if(global.id_perso == nate_obj.id_perso)
-//{
-//	if( distance_to_object( nate_obj ) < 30 && (nate_obj.is_interacting == 0 || nate_obj.is_interacting == object_index))
-//	{
-//		nate_obj.is_interacting = object_index;
-	
-//		compteur = 0;
-//		var actions_to_draw_list;
-//		//List of interactive objects
-
-//		for(i=0;i<argument_count;i++)
-//		{
-//			//liste des actions pour le perso
-//			for(k=0;k<array_length_1d(nate_obj.actions_list);k++)
-//			{
-//				if(argument[i]==nate_obj.actions_list[k])
-//				{
-//					actions_to_draw_list[compteur] = argument[i];
-//					compteur++;
-//				}
-//			}
-//		}
-//		if(compteur>0)
-//		{
-//			//Nate
-//			draw_set_color(c_white);
-//			for(l=0;l<compteur;l++)
-//			{
-//				draw_text_transformed(nate_obj.x + 50, nate_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
-//			}
-//		}
-//	}
-//	else if( distance_to_object( nate_obj ) > 30 && nate_obj.is_interacting == object_index)
-//	{
-//		nate_obj.is_interacting = 0;
-//	}
-//}
-
-//if(global.id_perso == oren_obj.id_perso)
-//{
-//	if( distance_to_object( oren_obj ) < 30 && (oren_obj.is_interacting == 0 || oren_obj.is_interacting == object_index))
-//	{
-//		oren_obj.is_interacting = object_index;
-	
-//		compteur = 0;
-//		var actions_to_draw_list;
-//		//List of interactive objects
-
-//		for(i=0;i<argument_count;i++)
-//		{
-//			//liste des actions pour le perso
-//			for(k=0;k<array_length_1d(oren_obj.actions_list);k++)
-//			{
-//				if(argument[i]==oren_obj.actions_list[k])
-//				{
-//					actions_to_draw_list[compteur] = argument[i];
-//					compteur++;
-//				}
-//			}
-//		}
-//		if(compteur>0)
-//		{
-//			//Oren
-//			draw_set_color(c_red);
-//			for(l=0;l<compteur;l++)
-//			{
-//				draw_text_transformed(oren_obj.x + 50, oren_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
-//			}
-//		}
-//	}
-//	else if( distance_to_object( oren_obj ) > 30 && oren_obj.is_interacting == object_index)
-//	{
-//		oren_obj.is_interacting = 0;
-//	}
-//}
-
-//if(global.id_perso == mia_obj.id_perso)
-//{
-//	if( distance_to_object( mia_obj ) < 30 && (mia_obj.is_interacting == 0 || mia_obj.is_interacting == object_index))
-//	{
-//		mia_obj.is_interacting = object_index;
-	
-//		compteur = 0;
-//		var actions_to_draw_list;
-//		//List of interactive objects
-
-//		for(i=0;i<argument_count;i++)
-//		{
-//			//liste des actions pour le perso
-//			for(k=0;k<array_length_1d(mia_obj.actions_list);k++)
-//			{
-//				if(argument[i]==mia_obj.actions_list[k])
-//				{
-//					actions_to_draw_list[compteur] = argument[i];
-//					compteur++;
-//				}
-//			}
-//		}
-//		if(compteur>0)
-//		{
-//			//Oren
-//			draw_set_color(c_fuchsia);
-//			for(l=0;l<compteur;l++)
-//			{
-//				draw_text_transformed(mia_obj.x + 50, mia_obj.y -120 + 20*l, actions_to_draw_list[l],1,1,image_angle);
-//			}
-//		}
-//	}
-//	else if( distance_to_object( mia_obj ) > 30 && mia_obj.is_interacting == object_index)
-//	{
-//		mia_obj.is_interacting = 0;
-//	}
-//}
 
 return compteur;
