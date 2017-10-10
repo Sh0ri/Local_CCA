@@ -1,1 +1,1 @@
-Ajout de la lecture de fichiers texte pour les dialogues
+Modification du script Item Interact

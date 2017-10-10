@@ -8,8 +8,8 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23138841
-/// @DnDArgument : "code" "string_name = "lamp";$(13_10)object_photo = lampe_photo_obj;$(13_10)available_actions = ["Inspect","Photo","Scan","Draw"];$(13_10)inspect_text = "OMG je suis une lampe haled\nPress Enter to exit...";"
+/// @DnDArgument : "code" "string_name = "lamp";$(13_10)object_photo = lampe_photo_obj;$(13_10)available_actions =["Inspect","Photo","Scan","Destroy"];$(13_10)inspect_text = "OMG je suis une lampe haled\nPress Enter to exit...";"
 string_name = "lamp";
 object_photo = lampe_photo_obj;
-available_actions = ["Inspect","Photo","Scan","Draw"];
+available_actions =["Inspect","Photo","Scan","Destroy"];
 inspect_text = "OMG je suis une lampe haled\nPress Enter to exit...";
