@@ -18,3 +18,19 @@ if(highlight)
 
 else
  draw_self()
+
+//interaction
+if(self.must_show_action == false)
+{
+	self.compteur_actions = interact_script(self.available_actions); //il faut mettre tab de string
+
+	if(self.compteur_actions != 0)
+	{
+		action_script(self,self.compteur_actions,self.current_action);
+	}
+}
+
+if(self.must_show_action == true && self.current_action != "")
+{
+	action_script(self,self.compteur_actions,self.current_action);
+}
